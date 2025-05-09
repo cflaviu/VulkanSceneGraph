@@ -577,10 +577,10 @@ namespace
 bool Xcb_Window::pollEvents(UIEvents& events)
 {
     xcb_generic_event_t* event;
-    int i = 0;
+    // int i = 0;
     while ((event = xcb_poll_for_event(_connection)))
     {
-        ++i;
+        // ++i;
         uint8_t response_type = event->response_type & ~0x80;
         switch (response_type)
         {

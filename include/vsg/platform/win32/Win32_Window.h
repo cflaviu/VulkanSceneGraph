@@ -222,4 +222,7 @@ namespace vsgWin32
 
 } // namespace vsgWin32
 
-EVSG_type_name(vsgWin32::Win32_Window);
+namespace vsg
+{
+VSG_type_name(vsgWin32::Win32_Window);
+}

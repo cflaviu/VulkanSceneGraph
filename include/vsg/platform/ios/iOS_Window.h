@@ -95,6 +95,9 @@ namespace vsgiOS
 
 } // namespace vsgMacOS
 
-EVSG_type_name(vsgiOS::iOS_Window);
+namespace vsg
+{
+VSG_type_name(vsgiOS::iOS_Window);
+}
 
 #endif /* vsg_iOS_Window_h */

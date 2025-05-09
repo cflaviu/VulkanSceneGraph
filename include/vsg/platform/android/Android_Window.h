@@ -107,4 +107,7 @@ namespace vsgAndroid
 
 } // namespace vsgAndroid
 
-EVSG_type_name(vsgAndroid::Android_Window);
+namespace vsg
+{
+VSG_type_name(vsgAndroid::Android_Window);
+}

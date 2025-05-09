@@ -95,4 +95,7 @@ namespace vsgMacOS
 
 } // namespace vsgMacOS
 
-EVSG_type_name(vsgMacOS::MacOS_Window);
+namespace vsg
+{
+VSG_type_name(vsgMacOS::MacOS_Window);
+}

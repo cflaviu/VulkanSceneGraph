@@ -93,4 +93,7 @@ namespace vsgXcb
 
 } // namespace vsgXcb
 
-EVSG_type_name(vsgXcb::Xcb_Window);
+namespace vsg
+{
+VSG_type_name(vsgXcb::Xcb_Window);
+}
